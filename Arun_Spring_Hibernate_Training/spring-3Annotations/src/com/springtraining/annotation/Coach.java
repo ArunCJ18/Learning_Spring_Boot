@@ -1,5 +1,7 @@
 package com.springtraining.annotation;
 
 public interface Coach {
-	public void getDailyWorkout();
+	public String getDailyWorkout();
+	
+	public  String getDailyFortune();
 }

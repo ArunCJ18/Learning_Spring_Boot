@@ -13,7 +13,10 @@ public class VolleyDemoApp {
 		Coach theCoach = context.getBean("volleyCoach",Coach.class); 
 		
 		//utilizing the bean
-		theCoach.getDailyWorkout();
+		System.out.println(theCoach.getDailyWorkout());
+		System.out.println(theCoach.getDailyFortune());
+		
+		
 		
 		//closing the context
 		context.close();
